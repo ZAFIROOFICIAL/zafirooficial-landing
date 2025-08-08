@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ZAFIRO — Próximamente</title>
+  <style>
+    :root { --bg:#0b0b0b; --silver:#c9c9c9; --white:#f5f5f5; --accent:#9aa4b2; }
+    html,body{margin:0;height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--white);}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:32px;}
+    .card{max-width:720px;width:100%;text-align:center;border:1px solid #222;border-radius:20px;padding:40px 28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+      box-shadow:0 10px 40px rgba(0,0,0,.35);}
+    .logo{font-size:18px;letter-spacing:.4em;font-weight:700;color:var(--silver);margin-bottom:8px}
+    h1{font-size:40px;margin:8px 0 10px;line-height:1.15}
+    p{margin:8px 0;color:var(--accent)}
+    .cta{margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+    input[type=email]{background:#121212;border:1px solid #2a2a2a;color:#fff;padding:12px 14px;border-radius:12px;min-width:260px;outline:none}
+    button{background:#f0f0f0;color:#111;border:0;border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer}
+    .foot{margin-top:22px;font-size:12px;color:#7c8796}
+    .small{font-size:12px;color:#a7b0bd;margin-top:10px}
+    .badge{display:inline-block;padding:6px 10px;border:1px solid #2a2a2a;border-radius:999px;font-size:12px;color:#cfcfcf;margin-top:8px}
+    @media (max-width:560px){ h1{font-size:30px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="logo">ZAFIRO</div>
+      <h1>Lujo táctico para todos tus días</h1>
+      <p>Hecho en Colombia. Listo para el mundo.</p>
+      <span class="badge">Sitio en construcción</span>
+
+      <div class="small">Déjanos tu correo y te avisamos del lanzamiento:</div>
+      <!-- Si quieres usar Google Forms, pega aquí tu iframe -->
+      <!-- <iframe src="PEGAR_IFRAME_DE_GOOGLE_FORMS" width="100%" height="420" frameborder="0"></iframe> -->
+
+      <div class="cta">
+        <a href="mailto:contacto@zafirooficial.com?subject=Quiero%20saber%20del%20lanzamiento%20ZAFIRO">
+          <button>Quiero enterarme del lanzamiento</button>
+        </a>
+      </div>
+
+      <div class="foot">© ZAFIRO. Todos los derechos reservados.</div>
+    </div>
+  </div>
+</body>
+</html>
